@@ -1,0 +1,15 @@
+azure:
+  resource_group:
+    name: dev_rg
+  vnet: 
+    name: dev_vnet
+    subnets:
+      subnet-1:
+        prefix: 10.0.1.0/24
+      subnet-2:
+        prefix: 10.0.2.0/24
+  web:
+    its_wednesday:
+      address: # This needs to be updated with a value URL once the terragrunt config is deployed
+      expected_response: <iframe width="560" height="315" src="https://www.youtube.com/embed/du-TY1GUFGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
